@@ -1,6 +1,6 @@
 class Song 
   extend Concerns::Findable
-  attr_accessor :name, :artist, :genre #these are not custom attributes, read and write 
+  attr_accessor :name, :artist, :genre, :musicimporter #these are not custom attributes, read and write 
   
 @@all = [] #all new objects gets sent to this array to contain
 
